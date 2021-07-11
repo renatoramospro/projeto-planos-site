@@ -1,0 +1,72 @@
+﻿*{margin: 0px; padding: 0px;}
+/* Texto do rodape principal*/
+#titulo-div{
+  color: #8B0000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#texto-div{
+  color: #000000; 
+  font-size: 20px;
+}
+/* Rodape principal */
+.plano-principal div{
+    display: inline-block;
+}
+.plano-principal{
+  width: 100%;
+  height: 600px;
+  border-top: 3px solid #e0e0e0;
+  background-color: #FFF; 
+  margin-top: 5px; 
+  margin-bottom: 20px; 
+  box-shadow: 0px -5px 3px #e0e0e0;
+ 
+}
+/* Texto do rodape principal*/
+#plano1{
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 4%;
+}
+#plano2{
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+#plano3{
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+/* Elemento de classe "botao" */
+.botao-cadastro {
+    font-size: 1.2em;
+    background: #B22222;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(255,0,0,0.3);
+    text-shadow: 1px 1px 1px rgba(255,0,0,0.3);
+    position: absolute;
+    top: 90%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao-cadastro:hover {
+    background: #ff9e81;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao-cadastro, select{
+    cursor: pointer;
+}
